@@ -1,0 +1,199 @@
+header {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+  }
+  
+  body {
+    background-color: #e7e4f2;
+  }
+  
+  h1,
+  li {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  p,
+  table,
+  form {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  article h1 {
+    font-size: 25px;
+  }
+  
+  article p {
+    font-size: 18px;
+  }
+  
+  #miniphrase {
+    position: absolute;
+    bottom: 5px;
+    font-size: 15px;
+  }
+  
+  /* BANNIERE ACCUEIL */
+  
+  #heroes {
+    height: 800px;
+    background-image: url("images/photo_banniere3.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 2px;
+    box-shadow: 0px 4px 4px #1c1a19;
+  }
+  
+  #texte_image_accueil {
+    font-family: "Open Sans", sans-serif;
+    font-size: 55px;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 240px;
+    right: 800px;
+  }
+  
+  /* BARRE DE NAVIGATION */
+  
+  #logo img {
+    width: 17%;
+    float: left;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    margin-right: 30px;
+  }
+  
+  li,
+  a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav a {
+    font-size: 1.7em;
+    color: #181818;
+    float: right;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #563673;
+    border-bottom: 3px solid #563673;
+  }
+  
+  /* FAMILLE ROYALE */
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #photoroi {
+    border: 3px solid black;
+  }
+  
+  #photoprincesse {
+    border: 3px solid black;
+  }
+  
+  #photoreine {
+    border: 3px solid black;
+  }
+  .familymember {
+    font-size: 20px;
+  }
+  
+  .quickpresentation {
+    margin: 40px;
+    font-size: 18px;
+  }
+  
+  /* TABLEAU DES EVENEMENTS SPORTIFS */
+  
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #1f1d1d;
+  }
+  thead th:nth-child(1) {
+    width: 30%;
+    border-bottom: solid black;
+    border-right: solid black;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    border-bottom: solid black;
+    border-right: solid black;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+    border-bottom: solid black;
+  }
+  
+  th,
+  td {
+    border: 2px solid black;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  thead {
+    background-color: #719ad9;
+    font-size: 20px;
+  }
+  
+  tbody {
+    font-size: 18px;
+  }
+  
+  .rowhighlight {
+    background-color: #ebf2fa;
+  }
+  
+  /* FORMULAIRE DE CONTACT */
+  
+  form {
+    padding: 50px;
+    width: 100%;
+  }
+  
+  input,
+  textarea {
+    padding: 3px;
+    border: 1px solid #f5c5c5;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 1px 1px 2px #c0c0c0 inset;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  #submitbutton {
+    max-width: 90px;
+  }
+  
